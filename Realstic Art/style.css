@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(abc.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-y ;
+    height: 100vh;
+}
+
+.navbar{
+    width: 1300px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+    
+}
+
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 7px;
+    filter: drop-shadow(10px 5px 10px);
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #000;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.row{
+    padding-left: 70px;
+}
+
+.col{
+    width: 1300px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.col .par{
+    padding-left: 100px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.col h1{
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 15px;
+    padding-left: 100px;
+    margin-top: 10%;
+    letter-spacing: 2px;
+}
+
+.col .cn{
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 150px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+
+.col .cn a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #fff;
+}
+
+.col span{
+    color: #ff7200;
+    font-size: 50px
+}
+
+.image{
+    width: 10px;
+    height: 10px;
+    
+}
+
+.col p1{
+    width: 10px;
+}
+
+.col{
+    flex-basis: auto;
+    margin-left: 10px;
+}
+
+.row{
+    display: flex;
+    margin-left:10px ;
+}
+
+.card{
+    width: 400px;
+    height: 520px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 20px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 40px 70px;
+    background-image: url(painting.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+
+/* gallery */
+
+#gallery{
+    overflow: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-image: url(pexels-eva-bronzini-7599547.jpg);
+    
+}
+
+.heading{
+    color: #ff7200;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 1px;
+    filter: drop-shadow(10px 5px 10px);
+
+}
+
+.section33{
+    color: #fff;
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 10px 25px 10px 25px;
+    box-sizing: border-box ;
+    filter: drop-shadow(5px 5px 10px #fff);
+}
+
+/* about */
+#about{
+    color: #fff;
+    overflow: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.about_heading{
+    color: #ff7200;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 1px;
+    filter: drop-shadow(10px 5px 10px);
+}
+
+/* contact */
+#contact{
+    color: #fff;
+    overflow: auto;
+    margin-top: 50px;
+    text-align: center;
+    height: 100px;
+}
+
+.contact_heading{
+    color: #ff7200;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 1px;
+    filter: drop-shadow(10px 5px 10px);
+}
+.icon a{
+    color: #fff;
+    text-align: center;
+    font-size: 80px;
+    margin-top: 30px;
+    filter: drop-shadow(5px 1px 10px #ff7200);
+    margin-right: 10px;
+    float:left;
+    margin-left: 180px;
+}
+
+.icon ion-icon{
+  
+
+}
+
+.icon ion-icon:hover{
+    color: #ff7200;
+}
